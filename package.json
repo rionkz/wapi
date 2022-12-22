@@ -1,0 +1,24 @@
+{
+  "name": "btcapi",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.0",
+    "bip32": "^3.0.1",
+    "bip39": "^3.0.4",
+    "bitcoinjs-lib": "^6.0.1",
+    "bitcore-lib": "^8.25.25",
+    "bitcore-mnemonic": "^8.25.25",
+    "bs58check": "^2.1.2",
+    "ecpair": "^2.0.1",
+    "express": "^4.17.3",
+    "nodemon": "^2.0.15",
+    "tiny-secp256k1": "^2.2.1"
+  }
+}
